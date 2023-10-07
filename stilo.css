@@ -1,0 +1,92 @@
+body {
+    background-image: url(descarga.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1850px 650px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/** cambio de color botones y forma**/
+ button[data-tipo="alimenticio"]{
+
+    padding: 10px 20px;
+    background-color: #18af52;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+     cursor: pointer;
+
+    
+}
+
+button[data-tipo="electronico"]{
+
+    padding: 10px 20px;
+    background-color: #18af52;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+     cursor: pointer;
+}
+button[onclick="vaciarCarrito()"]{
+
+    padding: 10px 20px;
+    background-color: #18af52;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+     cursor: pointer;
+}
+
+
+h1,
+h2 {
+  font-family: Arial;
+  color: blue;
+}
+
+p {
+    font-family: Times New Roman;
+    color: rgb(190, 13, 13);
+}
+
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: fit-content;
+    border: 4px solid rgb(209, 16, 16);
+
+    padding: 1rem;
+    margin: 0.5rem;
+
+    
+}
+.my-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.producto img {
+    max-width: 200px;
+}
+
+#carrito {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
